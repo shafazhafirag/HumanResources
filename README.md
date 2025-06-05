@@ -27,24 +27,20 @@ Dengan memahami pola dan faktor risiko turnover, perusahaan dapat:
 ## Cakupan Proyek
 Proyek ini dirancang untuk membantu manajemen HR memahami dan merespon risiko turnover melalui langkah-langkah berikut:
 
-1. Analisis Deskriptif:
-  - Melakukan segmentasi karyawan berdasarkan usia, jabatan, dan departemen.
-  - Menganalisis distribusi kepuasan kerja, beban kerja (lembur), dan kompensasi.
+1. Eksplorasi dan Pemahaman Data
+- Menganalisis dataset employee_data.csv untuk memahami karakteristik karyawan dan distribusi attrition berdasarkan demografi, jabatan, dan departemen.
+2. Data Preparation
+- Membersihkan dan memproses data untuk memastikan kualitas dan kesiapan dalam analisis dan pemodelan.
+3. Analisis Faktor Penyebab Attrition
+- Mengidentifikasi korelasi antara variabel seperti pendapatan bulanan, lembur, usia, masa kerja, dan kepuasan kerja dengan attrition.
+- Visualisasi tren attrition berdasarkan usia, level pekerjaan, departemen, dan masa kerja.
+4. Pembuatan Business Dashboard
+- Menyajikan visualisasi interaktif yang memudahkan tim HR dalam memantau dan memahami faktor-faktor penyebab attrition.
+5. Model Prediktif Attrition
+- Membangun model machine learning (seperti XGBoost) untuk memprediksi kemungkinan resign pada tingkat individu dan menghasilkan skor risiko.
 
-2. Identifikasi Pola Attrition:
-   - Menemukan kombinasi faktor (misal: lembur tinggi + gaji rendah) yang berasosiasi dengan risiko keluar.
-   - Mendeteksi tren dari karyawan dengan masa kerja pendek dan penilaian atasan yang rendah.
-
-3. Model Prediktif:
-   - Mengembangkan model machine learning (seperti XGBoost) untuk memprediksi kemungkinan seorang karyawan resign.
-   - Menyediakan skor risiko individual sebagai input bagi tim HR.
-
-4. Visualisasi Interaktif:
-   - Membangun dashboard interaktif untuk memantau risiko attrition dan distribusinya dalam organisasi.
-
-5. Rekomendasi Intervensi:
-   - Memberikan rekomendasi spesifik berdasarkan temuan model, seperti revisi beban kerja, penyesuaian kompensasi, atau program retention onboarding.
-
+Kesimpulan dan Rekomendasi
+Memberikan insight dan saran berbasis data untuk strategi retensi, seperti penyesuaian beban kerja, kompensasi, atau program onboarding.
 
 ---
 
