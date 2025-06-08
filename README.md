@@ -34,9 +34,7 @@ Proyek ini dirancang untuk membantu manajemen HR memahami dan merespon risiko tu
 3. Analisis Faktor Penyebab Attrition
 - Mengidentifikasi korelasi antara variabel seperti pendapatan bulanan, lembur, usia, masa kerja, dan kepuasan kerja dengan attrition.
 - Visualisasi tren attrition berdasarkan usia, level pekerjaan, departemen, dan masa kerja.
-4. Pembuatan Business Dashboard
-- Menyajikan visualisasi interaktif yang memudahkan tim HR dalam memantau dan memahami faktor-faktor penyebab attrition.
-5. Model Prediktif Attrition
+4. Model Prediktif Attrition
 - Membangun model machine learning (seperti XGBoost) untuk memprediksi kemungkinan resign pada tingkat individu dan menghasilkan skor risiko.
 
 Kesimpulan dan Rekomendasi
@@ -55,8 +53,3 @@ Link langsung ke file `.csv`:
 - [https://raw.githubusercontent.com/selva86/datasets/master/student-mat.csv](http://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
 
-### Setup Environment
-
-Library yang dibutuhkan:
-```bash
-pip install pandas matplotlib seaborn plotly scikit-learn streamlit
